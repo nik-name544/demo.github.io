@@ -702,10 +702,11 @@ html {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    transform: translate(-18px, -80px);
 
+    transform: translate(-18px, -80px);
     list-style: none;
 }
+
 .blocks__texts:nth-child(4) {
     background-color: #000000;
 }
@@ -738,24 +739,24 @@ html {
     transform: translate(-20px, -18px) rotate(180deg);
 }
 
-.blocks__group1 > .blocks__texts {
-    transform: translate(-105px, 165px);
+.blocks__texts1 {
+    /* transform: translate(-105px, 165px); */
 }
 
-.blocks__group2 > .blocks__texts {
-    transform: translate(-79px, 211px);
+.blocks__texts2 {
+    transform: translate(-90px, 10px);
 }
 
-.blocks__group3 > .blocks__texts {
-    transform: translate(-70px, 75px);
+.blocks__texts3 {
+    transform: translate(8px, -80px);
 }
 
-.blocks__group4 > .blocks__texts {
-    transform: translate(-75px, 63px);
+.blocks__texts4 {
+    transform: translate(-34px, -46px);
 }
 
-.blocks__group5 > .blocks__texts {
-    transform: translate(-95px, 30px);
+.blocks__texts5 {
+    transform: translate(-18px, -69px);
 }
 
 /* blocks end */
@@ -1674,6 +1675,8 @@ a {
     .blocks__wrapper--vertically {
         margin-left: -18px;
     }
+
+    
 
     .blocks__group1 > .blocks__texts {
         transform: translate(-73px, 132px);
