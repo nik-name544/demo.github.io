@@ -1148,6 +1148,7 @@ a {
 
 .blocks {
     max-width: 770px;
+    margin-left: 93px;
 }
 
 .top-title.lifestyle {
@@ -1258,6 +1259,7 @@ a {
 
 .takeaway__blocks-inner {
     max-width: 550px;
+    margin-left: 93px;
 }
 
 @media (max-width: 1300px) {
@@ -1266,8 +1268,13 @@ a {
         justify-content: space-around;
     }
 
+    .blocks { 
+        margin-left: 0;
+    }
+
     .takeaway__blocks-inner {
         max-width: 100%;
+        margin-left: 0;
     }
 
     .blocks__bot-titles {
