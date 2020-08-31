@@ -737,37 +737,37 @@ html {
 
 .blocks__texts2 {
     /* transform: translate(-90px, 10px); */
-    height: 12%;
+    height: 133px;
     margin-left: -75px;
 }
 
 .blocks__texts3 {
     /* transform: translate(8px, -80px); */
-    height: 11%;
+    height: 115px;
     margin-left: -67px;
 }
 
 .blocks__texts4 {
-    /* transform: translate(-34px, -46px); */
-    height: 13%;
+    /* transform: translate(-34px, -46px); */ 
+    height: 132px;
     margin-left: -79px;
 }
 
 .blocks__texts5 {
     /* transform: translate(-18px, -69px); */
-    height: 13%;
+    height: 131px;
     margin-left: -80px;
 }
 
 .blocks__texts6 {
     /* transform: translate(-80px, 25px); */
-    height: 10%;
+    height: 90px;
     margin-left: -20px;
 }
 
 .blocks__texts7 {
     /* transform: translate(-61px, -60px); */
-    height: 5%;
+    height: 53px;
     margin-left: -122px;
 }
 
