@@ -1238,7 +1238,6 @@ a {
     max-width: 635px;
     width: 100%;
     position: relative;
-
 }
 
 .vibe__wrapper--horizontally {
@@ -1860,7 +1859,7 @@ a {
         /* height: 127px; */
     }
 
-    .blocks__texts6 .blocks__text-list { 
+    .blocks__texts6 .blocks__text-list {
         right: 125px;
     }
 }
@@ -2108,7 +2107,7 @@ a {
         margin-bottom: 200px;
     }
 
-    .vibe__item-subtext { 
+    .vibe__item-subtext {
         bottom: 75px;
     }
 
@@ -2211,12 +2210,17 @@ a {
         /* margin-left: -72px; */
     }
 
-    .sophisticated__wrapper,
     .sophisticated,
     .lifestyle-new,
     .example,
     .references {
         margin-left: 0;
+    }
+
+    .sophisticated__wrapper {
+        max-width: 55vw;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .sophisticated::before,
@@ -2228,7 +2232,7 @@ a {
     .takeaway__title {
         padding: 0 15px;
     }
- 
+
     .sophisticated__author img {
         width: 195px;
     }
@@ -2244,7 +2248,7 @@ a {
     .blocks__group7 .blocks__texts {
         /* transform: translate(-77px, 10px); */
     }
- 
+
     .content-first__subtitle--top,
     .content-first__subtitle--top span {
         -webkit-flex-wrap: wrap;
@@ -2419,6 +2423,12 @@ a {
     .blocks__texts7 .blocks__text-list {
         top: 15px;
         right: 120px;
+    }
+}
+
+@media (max-width: 375px) {
+    .sophisticated__wrapper {
+        max-width: 100%;
     }
 }
 
