@@ -886,10 +886,11 @@ html {
         -ms-transform: rotate(90deg);
             transform: rotate(90deg); */
 
-            -webkit-transform: rotate(90deg) translate(60px, 155px);
-            -ms-transform: rotate(90deg) translate(60px, 155px);
-                transform: rotate(90deg) translate(60px, 155px);
-        width: 300px;
+    -webkit-transform: rotate(90deg) translate(-36px, 106px);
+    -ms-transform: rotate(90deg) translate(-36px, 106px);
+    transform: rotate(90deg) translate(-36px, 106px);
+    height: 400px;
+    width: 400px;
 }
 
 .blocks__texts li {
