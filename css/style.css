@@ -882,15 +882,33 @@ html {
     -webkit-flex-direction: column-reverse;
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
-    /* -webkit-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-            transform: rotate(90deg); */
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 
-    -webkit-transform: rotate(90deg) translate(-36px, 106px);
+    /* -webkit-transform: rotate(90deg) translate(-36px, 106px);
     -ms-transform: rotate(90deg) translate(-36px, 106px);
-    transform: rotate(90deg) translate(-36px, 106px);
+    transform: rotate(90deg) translate(-36px, 106px); */
     height: 400px;
     width: 400px;
+    position: relative;
+    right: 190px;
+    top: -30px;
+}
+
+.blocks__texts6 .blocks__text-list {
+    top: -33px;
+    right: 150px;
+}
+
+.blocks__texts7 .blocks__text-list {
+    top: -70px;
+}
+
+.blocks__texts7 .blocks__texts ul {
+    /* -webkit-transform: rotate(90deg) translate(-36px, 106px);
+    -ms-transform: rotate(90deg) translate(-36px, 106px);
+    transform: rotate(90deg) translate(-36px, 106px); */
 }
 
 .blocks__texts li {
@@ -924,43 +942,43 @@ html {
 }
 
 .blocks__texts1 {
-    margin-left: -96px;
+    /* margin-left: -96px; */
 }
 
 .blocks__texts2 {
     /* transform: translate(-90px, 10px); */
-    height: 133px;
-    margin-left: -75px;
+    /* height: 133px;
+    margin-left: -75px; */
 }
 
 .blocks__texts3 {
     /* transform: translate(8px, -80px); */
-    height: 115px;
-    margin-left: -67px;
+    /* height: 115px;
+    margin-left: -67px; */
 }
 
 .blocks__texts4 {
     /* transform: translate(-34px, -46px); */
-    height: 132px;
-    margin-left: -79px;
+    /* height: 132px;
+    margin-left: -79px; */
 }
 
 .blocks__texts5 {
     /* transform: translate(-18px, -69px); */
-    height: 131px;
-    margin-left: -80px;
+    /* height: 131px; */
+    /* margin-left: -80px; */
 }
 
 .blocks__texts6 {
     /* transform: translate(-80px, 25px); */
-    height: 90px;
-    margin-left: -20px;
+    /* height: 90px;
+    margin-left: -20px; */
 }
 
 .blocks__texts7 {
     /* transform: translate(-61px, -60px); */
-    height: 53px;
-    margin-left: -122px;
+    /* height: 53px;
+    margin-left: -122px; */
 }
 
 .blocks__texts7 .blocks__text {
