@@ -1859,6 +1859,10 @@ a {
     .blocks__texts5 {
         /* height: 127px; */
     }
+
+    .blocks__texts6 .blocks__text-list { 
+        right: 125px;
+    }
 }
 
 @media (max-width: 950px) {
@@ -2102,6 +2106,14 @@ a {
 
     .takeaway {
         margin-bottom: 200px;
+    }
+
+    .vibe__item-subtext { 
+        bottom: 75px;
+    }
+
+    .vibe__text {
+        max-width: 100%;
     }
 }
 
