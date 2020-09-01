@@ -2228,9 +2228,7 @@ a {
     .takeaway__title {
         padding: 0 15px;
     }
-}
-
-@media (max-width: 500px) {
+ 
     .sophisticated__author img {
         width: 195px;
     }
@@ -2246,9 +2244,7 @@ a {
     .blocks__group7 .blocks__texts {
         /* transform: translate(-77px, 10px); */
     }
-}
-
-@media (max-width: 450px) {
+ 
     .content-first__subtitle--top,
     .content-first__subtitle--top span {
         -webkit-flex-wrap: wrap;
